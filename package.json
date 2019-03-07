@@ -1,0 +1,26 @@
+{
+  "name": "io.apimockserver",
+  "version": "1.0.0",
+  "description": "Api in Node for mock server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edwin Anaya",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.18.3",
+    "crypto": "^1.0.1",
+    "epayco-node": "0.0.5",
+    "express": "4.16.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
